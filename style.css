@@ -1,0 +1,342 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    -ms-overflow-style: none;
+}
+
+*::-webkit-scrollbar {
+    width: 0 !important
+}
+
+body {
+    background-color: black;
+    font-family: 'Poppins';
+}
+
+.container {
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+    position: relative;
+    overflow: hidden;
+}
+
+.left-container {
+    width: 30vw;
+}
+
+.right-container {
+    width: 85vw;
+    padding-right: 20px;
+}
+
+.nav {
+    height: 75px;
+    /* width: 100px; */
+    margin-top: 30px;
+    margin-right: 20px;
+    background-color: rgb(20, 19, 19);
+    color: #a7a7a7;
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    border: 2px transparent;
+    border-radius: 10px;
+}
+
+.btn {
+    color: #a7a7a7;
+    border: none;
+    font-size: 17px;
+    background: transparent;
+}
+
+.arrow {
+    margin-left: 10px;
+}
+
+.nav-right {
+    width: 500px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.btnar {
+    margin-left: 30px;
+}
+
+.sep-bar {
+    font-size: 200px;
+    font-weight: 400;
+}
+
+.btn-login {
+    border: none;
+    font-size: 18x;
+    font-weight: 700;
+    padding: 17px 30px;
+    border: 2px solid white;
+    background-color: white;
+    color: black;
+    border-radius: 40px;
+
+}
+
+.btn-login:hover {
+    transform: scale(1.05);
+}
+
+.btn:hover {
+    color: white;
+    font-size: 18px;
+
+}
+
+.left-top {
+    width: 350px;
+    height: 150px;
+    background-color: rgb(20, 19, 19);
+    margin-top: 30px;
+    margin-left: 20px;
+    border: 2px transparent;
+    border-radius: 10px;
+    color: #a7a7a7;
+}
+
+.left-top div {
+    display: flex;
+    font-size: 16px;
+    padding: 25px 20px 15px 25px;
+}
+
+
+.left-top p {
+    margin-left: 20px;
+}
+
+.left-top2 {
+    height: 500px;
+    width: 350px;
+    color: white;
+    font-size: 20px;
+    margin: 12px 25px;
+    margin-top: 10px;
+    margin-left: 20px;
+    border-radius: 10px;
+    background-color: rgb(20, 19, 19);
+
+}
+
+.left-top div p:hover {
+    color: gray;
+}
+
+
+
+.libraries {
+    display: flex;
+    gap: 10px;
+    padding: 12px 25px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.add {
+    margin-left: 100px;
+
+}
+
+.active-tab {
+    color: white;
+}
+
+.first-playlist {
+    height: 150px;
+    color: white;
+    margin: 20px;
+    padding: 15px;
+    /* margin: 20px;
+  padding: 20px; */
+    border-radius: 10px;
+    background-color: rgb(32, 30, 30);
+    /* padding: 15px 20px; */
+}
+
+
+.playlists {
+    height: 300px;
+    overflow: hidden;
+    overflow-y: scroll;
+    scrollbar-color: white;
+}
+
+
+.playlist-btn {
+    margin-top: 40px;
+    padding: 10px;
+    border: 2px transparent;
+    border-radius: 30px;
+    transition-delay: 0s;
+
+}
+
+.playlist-btn:hover {
+    transition-delay: 0.10s;
+    transform: scale(1.05);
+}
+
+.left-bottom {
+    height: 150px;
+    margin-top: 20px;
+    margin-left: 10px;
+
+}
+
+.left-bottom a {
+    color: #a7a7a7;
+    font-size: 12px;
+    text-decoration: none;
+    margin-left: 30px 0 0 10px;
+}
+
+.left-bottom {
+    padding: 20px;
+}
+
+.bottom-btn button {
+    margin-top: 20px;
+    background: none;
+    color: white;
+    border: 1px solid white;
+    border-radius: 20px;
+    display: flex;
+    padding: 10px;
+}
+
+.bottom-btn button i {
+    margin-right: 10px;
+}
+
+.main-content {
+    height: 585px;
+    background-color: #1f1e1e;
+    overflow: hidden;
+    overflow-y: scroll;
+
+}
+
+.nav2 {
+    padding: 10px 20px;
+    height: 60px;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.nav2 a {
+    color: white;
+    font-weight: 500;
+    text-decoration: none;
+}
+
+
+.images {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.img-div {
+    height: 280px;
+    width: 160px;
+    background-color: #1e1c1c;
+    padding: 15px;
+    color: white;
+    border-radius: 10px;
+    font-size: 16px;
+    transition-duration: 0s;
+    overflow: hidden;
+    overflow-y: scroll;
+    position: relative;
+}
+
+.play_btn {
+    position: absolute;
+    top: 110px;
+    background: #1ed760;
+    border: none;
+    color: black;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    font-size: 25px;
+    padding: 0;
+    right: 27px;
+    display: none;
+    animation-name: play_btn_animation;
+    animation-duration: 0.3s;
+}
+
+.img-div:hover .play_btn {
+    display: block;
+}
+
+@keyframes play_btn_animation {
+    0% {
+        top: 130px;
+        opacity: 0;
+    }
+
+    100% {
+        top: 110px;
+        opacity: 1;
+    }
+}
+
+.img-div:hover {
+    background-color: #2f2e2e;
+    transition-delay: 0.15s;
+}
+
+
+img {
+    height: 150px;
+    padding: 5px;
+    border-radius: 10px;
+}
+
+
+.img-section2 h2 {
+    color: white;
+    padding: 40px 20px;
+}
+
+.last-bar {
+    height: 90px;
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+    font-size: 14px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.last-bar-container {
+    color: white;
+    background-image: linear-gradient(90deg, #af2896, #509bf5);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    width: 94%;
+}
+
+.img-section3 h2 {
+    color: white;
+    padding: 40px 20px;
+}
